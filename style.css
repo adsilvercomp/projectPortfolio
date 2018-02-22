@@ -3,7 +3,7 @@ html,html *{box-sizing: border-box !important;}
 .project-container{
 	background-color:grey;
 	margin-bottom:-2px;
-	padding-bottom:100px;
+	
 }
 
 .about-container{
@@ -20,7 +20,7 @@ html,html *{box-sizing: border-box !important;}
 
 .project-section{
 	background-color:pink;
-	height:250px;
+	height:500px;
 	
 
 }
