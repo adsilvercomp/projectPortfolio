@@ -1,0 +1,87 @@
+html,html *{box-sizing: border-box !important;}
+
+.project-container{
+	background-color:grey;
+	margin-bottom:-2px;
+	display:block;
+	padding-bottom:100px;
+}
+
+.about-container{
+	background-color:orange;
+	margin-bottom:10px;
+	display:block;
+	padding-top:10px;
+	padding-bottom:100px;
+}
+
+#inner-about{
+	background-color:green;
+
+}
+
+.project-section{
+	background-color:pink;
+	height:200px;
+	
+
+}
+
+.project-link{
+	height:150px;
+	width:200px;
+	background-color:red;
+}
+
+
+#savor{
+	background-image: url("./img/savor.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-bottom: 10px;
+	
+}
+
+#entertainment-trivia{
+	background-image: url("./img/ET.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-bottom: 10px;
+}
+
+#nyt{
+	background-image: url("./img/NYT.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-bottom: 10px;
+
+}
+
+#bio{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#bio-image{
+	height:300px;
+	background-color:pink;
+	margin-bottom:10px;
+	border-radius:10px;
+	
+}
+
+#bImage{
+	border-radius:10px;
+	height:275px;
+	width:200px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:red;
+	background-image: url("./img/bioImage.jpg");
+	margin-bottom: 10px;
+}
+
+
+
+
+
