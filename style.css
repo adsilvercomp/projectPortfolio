@@ -3,16 +3,14 @@ html,html *{box-sizing: border-box !important;}
 .project-container{
 	background-color:grey;
 	margin-bottom:-2px;
-	display:block;
 	padding-bottom:100px;
 }
 
 .about-container{
 	background-color:orange;
-	margin-bottom:10px;
-	display:block;
 	padding-top:10px;
 	padding-bottom:100px;
+	margin-bottom:-20px;
 }
 
 #inner-about{
@@ -22,15 +20,16 @@ html,html *{box-sizing: border-box !important;}
 
 .project-section{
 	background-color:pink;
-	height:200px;
+	height:250px;
 	
 
 }
 
 .project-link{
-	height:150px;
-	width:200px;
+	height:200px;
+	width:300px;
 	background-color:red;
+	border-radius:20px;
 }
 
 
@@ -79,6 +78,31 @@ html,html *{box-sizing: border-box !important;}
 	background-color:red;
 	background-image: url("./img/bioImage.jpg");
 	margin-bottom: 10px;
+}
+
+#outer-link-container{
+	background-color:purple;
+	padding-top:10px;
+	padding-bottom:100px;
+	margin-bottom:-42px;
+}
+
+.vector{
+	height:100px;
+	margin-top:20px;
+}
+
+#contact-container{
+	margin-bottom:-60px;
+}
+
+#footer{
+	background-color:green;
+	height:150px;
+}
+
+#copyright{
+	padding-top:40px;
 }
 
 
