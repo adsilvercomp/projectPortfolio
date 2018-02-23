@@ -22,11 +22,12 @@ a:hover{
 }
 
 .project-container{
-	margin-top:600px;
+	margin-top:800px;
 	background-color:white;
 	margin-bottom:-2px;
 	
 }
+
 
 
 .about-container{
@@ -148,7 +149,7 @@ a:hover{
 #paralax{
 		margin-top:50px;
 		background-size:100%;
-		background-image: url("./img/davinci.jpg");
+		background-image: url("./img/blue-2.jpg");
 		height:100%;
 		width:100%;
 		position: fixed;	  
@@ -167,17 +168,92 @@ a:hover{
 #head-text1{
 	font-family: 'Hind Madurai', sans-serif;
 	color:white;
-	font-size:60px;
-	margin-top:10px;
+	font-size:75px;
+	margin-top:200px;
+	text-shadow: 2px 2px rgb(172, 36, 36);
 }
 
 #head-text2{
-	margin-top:-5px;
+	margin-top:20px;
 	font-family: 'Hind Madurai', sans-serif,;
 	color:white;
 	font-size:30px;
-	
+	text-shadow: 2px 2px rgb(172, 36, 36);
 }
+
+
+/* media query for where the project container meets the parlax image */
+
+@media screen and (max-width: 1000px) {
+    .project-container {
+        margin-top:600px;
+	}
+	
+	#head-text1{
+		font-size:50px;
+		margin-top:140px;
+		
+	}
+	
+	#head-text2{
+		font-size:30px;
+		
+	}
+}
+
+@media screen and (max-width: 868px) {
+    .project-container {
+        margin-top:520px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+	#head-text1{
+		font-size:30px;
+		margin-top:110px;
+		
+	}
+	
+	#head-text2{
+		font-size:15px;
+		
+	}
+    .project-container {
+        margin-top:410px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .project-container {
+        margin-top:360px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+	#head-text1{
+		font-size:25px;
+		margin-top:70px;
+		
+	}
+	
+	#head-text2{
+		font-size:15px;
+		
+	}
+    .project-container {
+        margin-top:300px;
+    }
+}
+
+/* ************************************* */
+
+
+ 
+
+
+
+
 
 
 
