@@ -1,25 +1,39 @@
 html,html *{box-sizing: border-box !important;}
 
+a{
+	color:black;
+}
+
+hr {
+	border: .5px black solid;
+	width: 75%;
+  }
+
+a:hover{
+	color:black;
+}
+
 .project-container{
-	background-color:grey;
+	margin-top:600px;
+	background-color:white;
 	margin-bottom:-2px;
 	
 }
 
 .about-container{
-	background-color:orange;
+	background-color:white;
 	padding-top:10px;
 	padding-bottom:100px;
 	margin-bottom:-20px;
 }
 
 #inner-about{
-	background-color:green;
-
+	background-color:white;
+	color:black;
 }
 
 .project-section{
-	background-color:pink;
+	background-color:white;
 	height:500px;
 	
 
@@ -28,8 +42,9 @@ html,html *{box-sizing: border-box !important;}
 .project-link{
 	height:200px;
 	width:300px;
-	background-color:red;
+	background-color:white;
 	border-radius:20px;
+	border:black solid 2px;
 }
 
 
@@ -63,7 +78,7 @@ html,html *{box-sizing: border-box !important;}
 
 #bio-image{
 	height:300px;
-	background-color:pink;
+	background-color:white;
 	margin-bottom:10px;
 	border-radius:10px;
 	
@@ -75,13 +90,14 @@ html,html *{box-sizing: border-box !important;}
 	width:200px;
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-color:red;
+	background-color:white;
 	background-image: url("./img/bioImage.jpg");
 	margin-bottom: 10px;
+	border:black solid 2px;
 }
 
 #outer-link-container{
-	background-color:purple;
+	background-color:white;
 	padding-top:10px;
 	padding-bottom:100px;
 	margin-bottom:-42px;
@@ -89,7 +105,9 @@ html,html *{box-sizing: border-box !important;}
 
 .vector{
 	height:100px;
+	width:100px;
 	margin-top:20px;
+	color:rgb(7, 7, 44);
 }
 
 #contact-container{
@@ -97,13 +115,35 @@ html,html *{box-sizing: border-box !important;}
 }
 
 #footer{
-	background-color:green;
+	background-color:white;
 	height:150px;
 }
 
 #copyright{
 	padding-top:70px;
 }
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+#paralax{
+		margin-top:50px;
+		background-size:100%;
+		background-image: url("./img/davinci.jpg");
+		height:100%;
+		width:100%;
+		position: fixed;	  
+}
+
+#button{
+	background-color:black;
+}
+
 
 
 

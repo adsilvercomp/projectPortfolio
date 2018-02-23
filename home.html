@@ -27,7 +27,7 @@
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container" id="carousel">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
           aria-controls="navbar">
@@ -44,13 +44,20 @@
     </div>
   </nav>
 
+
+
+
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron" id="heading">
-    <div class="container">
-      <h1 class="text-center">Aaron Silverstein</h1>
-      <h3 class="text-center">Front End Web Developer</h3>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-        and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      <div id="paralax">
+        <div class="container">
+          <h1 class="text-center">Aaron Silverstein</h1>
+          <h3 class="text-center">Front End Web Developer</h3>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
+            and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -59,6 +66,7 @@
   <div class="row">
     <div class="col-md-12 project-container">
       <h2 class="text-center">Projects</h2>
+      <hr/>
       <br/>
       <br/>
       <!-- links to projects go here -->
@@ -72,9 +80,9 @@
               <div class="project-description">
                 <h4 class="text-center">Savor</h4>
                 <p>
-                  A fulls stack MERN Application that returns recipes based on a user’s grocery list. As users consume their groceries and
-                  remove food from their grocery list, a list of recipes dynamically changes, allowing the user to make the
-                  most of what they have, thus reducing waste. The app utilizes MongoDB, Express.js, React.js, Node.js, CSS3,
+                  A full stack MERN Application that returns recipes based on a user’s grocery list. As users consume their groceries and remove
+                  food from their grocery list, a list of recipes dynamically changes, allowing the user to make the most
+                  of the food they have and reduce waste. The app utilizes MongoDB, Express.js, React.js, Node.js, CSS3,
                   Bootstrap, Passport, Bcrypt, the Edamam API and Heroku.
 
 
@@ -109,14 +117,15 @@
               </div>
               <div class="project-description">
 
-                  <h4 class="text-center">New York Times React App</h4>
-                  <p>
-                      A full stack MERN Application, in which users can search for any New York Times article by topic and date, save articles they would like to read and delete saved articles that they have already read. 
-                      This application utilizes, MongoDB, Express.js, React.js, Node.js, CSS3, Bootstrap, the New York Times API and Heroku.
-                      
-  
-                  </p>
-                </div>
+                <h4 class="text-center">New York Times React App</h4>
+                <p>
+                  A full stack MERN Application, in which users can search for any New York Times article by topic and date, save articles
+                  they would like to read and delete saved articles that they have already read. This application utilizes,
+                  MongoDB, Express.js, React.js, Node.js, CSS3, Bootstrap, the New York Times API and Heroku.
+
+
+                </p>
+              </div>
 
             </div>
           </a>
@@ -131,6 +140,7 @@
       <div class="col-md-12">
         <div class="about-container">
           <h2 class="text-center">About Me</h2>
+          <hr/>
           <br/>
           <!-- inner about container -->
           <div class="row">
@@ -164,6 +174,7 @@
       <div class="col-md-12">
         <div id="outer-link-container">
           <h2 class="text-center">Links</h2>
+          <hr/>
           <br/>
           <br/>
           <!-- inner link container -->
@@ -233,7 +244,7 @@
                     <!-- Form actions -->
                     <div class="form-group">
                       <div class="col-md-11 text-right">
-                        <button type="submit" value="send" class="btn btn-primary btn-lg">Submit</button>
+                        <button id="button" type="submit" value="send" class="btn btn-primary btn-lg">Submit</button>
                       </div>
                     </div>
               </fieldset>
@@ -256,7 +267,8 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
