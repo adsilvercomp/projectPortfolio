@@ -1,5 +1,13 @@
 html,html *{box-sizing: border-box !important;}
 
+h1, h2, h3, h4, h5, h6, h7, p {
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+p{
+	font-size: 17px;
+}
+
 a{
 	color:black;
 }
@@ -22,7 +30,7 @@ a:hover{
 
 
 .about-container{
-	margin-top:-20px;
+	
 	background-color:white;
 	padding-top:10px;
 	padding-bottom:100px;
@@ -157,6 +165,23 @@ a:hover{
 	padding-left:15px;
 	padding-right:15px;
 }
+
+#head-text1{
+	font-family: 'Hind Madurai', sans-serif;
+	color:white;
+	font-size:60px;
+	margin-top:10px;
+}
+
+#head-text2{
+	margin-top:-5px;
+	font-family: 'Hind Madurai', sans-serif,;
+	color:white;
+	font-size:30px;
+	
+}
+
+
 
 
 

@@ -13,7 +13,7 @@
   <title>Aaron Silverstein</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Hind+Madurai|Roboto" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="style.css" rel="stylesheet">
 
@@ -29,7 +29,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
           aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -37,7 +37,21 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#index.php">Home</a>
+          </li>
+          <li>
+            <a href="#about.php">Projects</a>
+          </li>
+          <li>
+            <a href="#portfolio">About Me</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
 
       </div>
       <!--/.navbar-collapse -->
@@ -52,10 +66,9 @@
     <div class="col-lg-12 col-md-12">
       <div id="paralax">
         <div class="container">
-          <h1 class="text-center">Aaron Silverstein</h1>
-          <h3 class="text-center">Front End Web Developer</h3>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron
-            and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <h1 id="head-text1" class="text-center">Aaron Silverstein</h1>
+          <h3 id="head-text2" class="text-center">Front End Web Developer</h3>
+
         </div>
       </div>
     </div>
@@ -65,6 +78,7 @@
   <!-- outer project container -->
   <div class="row">
     <div class="col-md-12 project-container">
+      <br/>
       <h2 class="text-center">Projects</h2>
       <hr/>
       <br/>
@@ -79,6 +93,7 @@
               <!-- savor description -->
               <div class="project-description">
                 <h4 class="text-center">Savor</h4>
+                <br/>
                 <p>
                   A full stack MERN Application that returns recipes based on a user’s grocery list. As users consume their groceries and remove
                   food from their grocery list, a list of recipes dynamically changes, allowing the user to make the most
@@ -100,6 +115,7 @@
               <!-- entertainment trivia description -->
               <div class="project-description">
                 <h4 class="text-center">Entertainment Trivia</h4>
+                <br/>
                 <p>
                   A trivia game with multiple entertainment categories and levels of difficulty. Utilizes JQuery and the Open Trivia API to
                   dynamically create questions, as well as Firebase for user Authentication and data storage. The front end
@@ -118,6 +134,7 @@
               <div class="project-description">
 
                 <h4 class="text-center">New York Times React App</h4>
+                <br/>
                 <p>
                   A full stack MERN Application, in which users can search for any New York Times article by topic and date, save articles
                   they would like to read and delete saved articles that they have already read. This application utilizes,
@@ -183,7 +200,7 @@
               <div id="inner-link-container">
 
                 <div class=col-md-6>
-                  <a href="https://www.linkedin.com/in/aaron-silverstein/">
+                  <a href="https://www.linkedin.com/in/aaron-silverstein">
                     <img class="vector center-block" src="./img/linkedin.png" )>
                   </a>
                 </div>
@@ -221,7 +238,7 @@
                     <div class="form-group">
                       <label class="col-md-2 control-label" for="name">Name</label>
                       <div class="col-md-9 ">
-                        <input  id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                        <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
                       </div>
                     </div>
 
@@ -236,7 +253,7 @@
                     <!-- Message body -->
                     <div class="form-group">
                       <label class="col-md-2 control-label" for="message">Your message</label>
-                      <div class="col-md-9 " >
+                      <div class="col-md-9 ">
                         <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                       </div>
                     </div>
