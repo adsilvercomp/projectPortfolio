@@ -181,6 +181,18 @@ a:hover{
 	text-shadow: 2px 2px rgb(172, 36, 36);
 }
 
+.icon{
+	height:60px;
+	width:65px;
+	background-color:white;
+}
+
+.icon-container{
+	background-color:white;
+}
+
+
+
 
 /* media query for where the project container meets the parlax image */
 
@@ -244,6 +256,12 @@ a:hover{
     .project-container {
         margin-top:300px;
     }
+}
+
+@media screen and (min-width: 1300px) {
+	.icon-container{
+		margin-left:60px;
+	}
 }
 
 /* ************************************* */
